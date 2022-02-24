@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <p id="const"></p>
+    <script>
+        let x = 5;
+        let y = 5;
+        let z = x + y;
+        document.getElementById("demo").innerHTML = z;
+    </script>
+    <p id="helo"></p>
+
+    <script>
+        const a = 5;
+        const b = 10;
+        let c = a + b;
+        document.getElementById("helo").innerHTML = c;
+    </script>
+    <p id="calculation"></p>
+    <script>
+        let m = 10;
+        let n = 10;
+        let o = m - n;
+        document.getElementById("calculation").innerHTML = o;
+    </script>
+    <p id="left"></p>
+    <script>
+        let j = 12 + 10 + "hello";
+        document.getElementById('left').innerHTML = j;
+    </script>
+    <p id="same"></p>
+    <script>
+        var d = 2;
+        var e = 2;
+        var f = 3;
+        document.getElementById('same').innerHTML =
+            (d == e) + " " + (d == f);
+    </script>
+    <p id="bike"></p>
+    <script>
+        const bike = ["hero", "royal-infilled", "honda"];
+        document.getElementById("bike").innerHTML = bike[2];
+    </script>
+    <p id="person"></p>
+    <script>
+        var person = {
+            firstname: "john",
+            lastname: "doe",
+            age: 24,
+            eyecolor: "blue"
+        };
+
+        document.getElementById("person").innerHTML = person.firstname;
+    </script>
+    <p id="typeof"></p>
+    <script>
+        document.getElementById("typeof").innerHTML = typeof "hello";
+    </script>
+    <p id="fruit"></p>
+    <script>
+        const fruit = ["apple", "orange", "grapes", "chiku"];
+        document.getElementById("fruit").innerHTML = fruit[1];
+    </script>
+    <p id="hjje"></p>
+    <script>
+        const people = {
+            familyname: "harry",
+            sirname: "stiffen",
+            weight: 65,
+            haircolor: "black",
+        };
+
+        document.getElementById("hjje").innerHTML = people.sirname;
+    </script>
+    <p id="kmmmc"></p>
+
+    <!-- <script>
+        var x = myfunction(4, 5);
+        document.getElementById("kmmmc").innerHTML = x;
+
+        function myfunction(a, b) {
+            return a * b;
+        }
+    </script> -->
+    <h1 id="hukk"></h1>
+
+    <script>
+        var q = myFunction(4, 3);
+        document.getElementById("hukk").innerHTML = q;
+
+        function myFunction(a, b) {
+            return a * b;
+        }
+    </script>
+    <p id="hjkk"></p>
+    <p id="infei"></p>
+    <script>
+        myFunction();
+
+        function myFunction() {
+            let carname = "skoda";
+            document.getElementById("hjkk").innerHTML = carname;
+        }
+
+        document.getElementById("infei").innerHTML = typeof carname;
+    </script>
+    <p id="fjefje"></p>
+    <script>
+        var m = myFunction(10, 10);
+        document.getElementById("fjefje").innerHTML = m;
+
+        function myFunction(o, p) {
+            return o * p;
+        }
+    </script>
+    <p id="sbueb"></p>
+    <script>
+        var things = {
+            type: "gard",
+            volume: 20,
+            color: "white"
+        };
+
+        document.getElementById("sbueb").innerHTML = things.type;
+    </script>
+
+</body>
+
+</html>
